@@ -1,0 +1,101 @@
+
+html{
+    width: 1045px;
+}
+.containder{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #d9d9d9;
+    display: flex;
+}
+
+header h4{
+    text-decoration: solid;
+    float: left;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-right: 1rem;
+
+}
+
+header p{
+    float: right;
+    white-space: nowrap;
+}
+
+
+.over{
+    float: left;
+    background-image: url(01.jpg);
+    background-size: 500px 600px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+}
+.over div{
+    padding-top: 400px;
+}
+.over h4{
+    background-color: yellow;
+}
+
+
+.juego{
+    background-color: #006b0b;
+    float: left;
+    background-image: url(02.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+.juego h3, p{
+    padding-left: 250px;
+    color: white;
+}
+
+.extra{
+    float: left;
+    background-image: url(03.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    width: 500px;
+    height: 300px;
+}
+
+.extra h4{
+    color: white;
+    padding-top: 200px;
+}
+.extra p{
+    padding-left: 0;
+}
+
+footer{
+    background-color: #636363;
+    display: flex;
+    float:left;
+}
+footer p{
+    padding-left: 0;
+    color: white;
+}
+footer img{
+    padding-left: 200px;
+}
+
+
+
+
+
